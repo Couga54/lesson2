@@ -1,0 +1,9 @@
+version: "3"
+
+services: 
+  lesson2:
+    container_name: lesson2
+    image: couga54/lesson2:1.0.0
+    ports: 
+      - "1234:80"
+    restart: always
