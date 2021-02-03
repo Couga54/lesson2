@@ -5,5 +5,5 @@ services:
     container_name: lesson2
     image: couga54/lesson2:1.0.0
     ports: 
-      - "1234:80"
+      - "80:80"
     restart: always
